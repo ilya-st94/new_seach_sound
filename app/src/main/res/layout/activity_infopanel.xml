@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorN"
+    tools:context=".Infopanel">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="154dp"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.859"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.799"
+        app:srcCompat="@drawable/photo_knopki" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="148dp"
+        android:layout_height="64dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.06"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.056"
+        app:srcCompat="@drawable/photo_knopkistart" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="131dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="67dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.117"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.432"
+        app:srcCompat="@drawable/photo_knopki2" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="193dp"
+        android:layout_height="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:layout_constraintVertical_bias="0.16"
+        app:srcCompat="@drawable/photo_knopki3" />
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_width="159dp"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:text="Нажмити чтобы начать измерение. Кнопка STOP останавливает измерение"
+        android:textColor="@color/colorgreen"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.801"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.058" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="153dp"
+        android:layout_height="79dp"
+        android:gravity="center"
+        android:text="Выбор предельного значения в диапозоне от 0 до 160 ДБ"
+        android:textColor="@color/colorgreen"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.062"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.285" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="120dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="98dp"
+        android:gravity="center"
+        android:text="Текущий уровень шума"
+        android:textColor="@color/colorgreen"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.718"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.404" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="150dp"
+        android:layout_height="95dp"
+        android:gravity="center"
+        android:text="Оповещение о превышении установленого предельного значения"
+        android:textColor="@color/colorgreen"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.745" />
+</androidx.constraintlayout.widget.ConstraintLayout>

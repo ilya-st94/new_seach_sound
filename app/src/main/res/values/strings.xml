@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">zvuk</string>
+    <string name="startname">start</string>
+    <string name="stopname">stop</string>
+</resources>
